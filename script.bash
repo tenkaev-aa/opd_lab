@@ -58,20 +58,21 @@ chmod 006 slakoth8/persian
 chmod 767 slakoth8/rampardos
 chmod 624 slakoth8/gible
 chmod 006 slakoth8/pidove
-chmod 755 fearow7
-chmod 755 fearow7/nuzleaf
-chmod 755 fearow7/vanillish
-chmod 755 silcoon4
+#3
+chmod 715 fearow7
+chmod 712 fearow7/nuzleaf
+chmod 712 fearow7/vanillish
+chmod 711 silcoon4
 ln -s ../drapion4 slakoth8/pidovedrapion
 ln -s fearow7 Copy_87
-chmod 744 silcoon4/clefable
-chmod 644 silcoon4/electrode
+chmod 747 silcoon4/clefable
+chmod 735 silcoon4/electrode
 chmod u+r silcoon4/karrablast silcoon4/vaporeon slakoth8/persian slakoth8/gible
 cat slakoth8/persian silcoon4/vaporeon > shelgon5_26
 cp drapion4 slakoth8/persiandrapion
 cp mamoswine2 fearow7/vanillish
 ln drapion4 silcoon4/vaporeondrapion
-chmod -R 777 slakoth8
+chmod -R 700 slakoth8
 cp -r slakoth8 silcoon4/clefable
 chmod 006 slakoth8/persian
 chmod 767 slakoth8/rampardos
@@ -97,16 +98,15 @@ echo "4.5"
 { cat -n silcoon4/karrablast silcoon4/vaporeon slakoth8/persian slakoth8/gible | grep -v "dsli"; } 2>&1
 #Можно было бы просто выполнить команды последовательно без группировки, но в этом случае не удалось бы одновременно перенаправить стандартный вывод и ошибки для всех команд
 echo "4.6"
-ls -lt fearow7 2>/tmp/err
-chmod 740 shelgon5
-rm shelgon5
-chmod -R 777 silcoon4
-chmod -R 777 fearow7
+ls -lt fearow7 2>/tmp/errr
+rm -f shelgon5
+chmod -R 700 silcoon4
+chmod -R 700 fearow7
 rm silcoon4/vaporeon
 rm Copy_*
 rm silcoon4/vaporeondrapi*
 rm -rf silcoon4
 rm -rf fearow7/vanillish
 cd ..
-chmod -R  777  lab0
+chmod -R  700  lab0
 rm -rf lab0
