@@ -85,7 +85,6 @@ chmod 337 silcoon4/clefable
 chmod 335 silcoon4/electrode
 chmod 060 silcoon4/karrablast
 chmod 062 silcoon4/vaporeon
-ls -ld
 echo "4.1"
 wc -l mamoswine2  >> mamoswine2
 echo "4.2"
