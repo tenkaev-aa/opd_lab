@@ -91,7 +91,7 @@ wc -l mamoswine2  >> mamoswine2
 echo "4.2"
 ls fearow7 | sort
 echo "4.3"
-cat -n $(ls -dp s* */s* */*/s* 2>/dev/null | grep -v "/$") 2>/dev/null | sort
+cat -n $(ls -dp s* */s* */*/s* 2>/dev/null | grep -v "/$") 2>/dev/null | sort -k2
 echo "4.4"
 ls -lrt  2>/dev/null | grep '/c'
 echo "4.5"
